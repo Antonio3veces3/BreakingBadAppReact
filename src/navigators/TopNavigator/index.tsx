@@ -10,7 +10,7 @@ const Tab = createMaterialTopTabNavigator();
 const Component = () => {
     return (
         <Tab.Navigator>
-        <Tab.Screen name="Characters" component={CharacterScreen} />
+        <Tab.Screen name="Characters" component={CharacterScreen}/>
         <Tab.Screen name="Phrases" component={PhrasesScreen} />
         <Tab.Screen name="Settings" component={SettingSreen} />
       </Tab.Navigator>
